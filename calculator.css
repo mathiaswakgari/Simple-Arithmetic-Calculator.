@@ -1,0 +1,33 @@
+body{
+    background-color: #f0e68c;
+}
+.calculator{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+#answer{
+    background-color: #f7f5eb;
+    grid-column: 1 / -1 ;
+    padding: 20%;
+}
+input{
+    font-size:30px;
+    border: none;
+    background-color: #555555;
+    color: #b3b3b3;
+    padding: 30px;
+}
+#ac{
+    background-color: red;
+    color: white;
+
+}
+.corner{
+    background-color: #f4e660;
+    color: #555555;
+}
+
+
