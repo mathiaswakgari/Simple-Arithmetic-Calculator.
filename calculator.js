@@ -10,6 +10,7 @@ class Calculator{
     }
     append(number){
         this.currentOperand = number;
+        this.currentOperand += number;
     }
     updateDisplay(){
         this.currentOperandTextElement.innerText = this.currentOperand
