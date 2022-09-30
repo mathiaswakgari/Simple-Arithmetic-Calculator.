@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link href="calculator.css" rel="stylesheet">
+    <script src="calculator.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="calculator">
-            <label id="answer"></label>
-            <input type="button" value="7" id="7">
-            <input type="button" value="8" id="8">
-            <input type="button" value="9" id="9">
-            <input type="button" value="/" class="corner" id="/">
-            <input type="button" value="4" id="4">
-            <input type="button" value="5" id="5">
-            <input type="button" value="6" id="6">
-            <input type="button" value="*" class="corner" id="*">
-            <input type="button" value="1" id="1">
-            <input type="button" value="2" id="2">
-            <input type="button" value="3" id="3">
-            <input type="button" value="+" class="corner" id="+">
-            <input type="button" value="AC" id="ac">
-            <input type="button" value="0" id="0">
-            <input type="button" value="=" id="ans">
-            <input type="button" value="-" class="corner" id="-">
+    <div class="calculator-grid">
+        <div class="display-screen">
+            <div class="small-screen">100 + </div>
+            <div class="big-screen">asd</div>
         </div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operands">/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operands">*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operands">-</button>
+        <button class="ac">AC</button>
+        <button>0</button>
+        <button>=</button>
+        <button class="operands">+</button>
     </div>
 </body>
 </html>
