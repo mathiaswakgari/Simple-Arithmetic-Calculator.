@@ -50,3 +50,21 @@ body{
     border: 0;
     font-size: 1.25rem;
 }
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    column-gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: linen;
+}
+.social-icons a:hover{
+    font-size: 4rem;
+    column-gap: 10px;
+}
