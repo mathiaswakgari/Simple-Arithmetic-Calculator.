@@ -40,7 +40,7 @@ class Calculator{
           default:
               return
       }
-      this.currentOperand = result;
+      this.currentOperand = result.toFixed(3);
       this.operation = undefined;
       this.previousOperand = ''
 }
